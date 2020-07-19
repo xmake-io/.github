@@ -21,7 +21,7 @@ If applicable, please add verbose the errors output to help us analyze your prob
 Please provide compiling and running environment information:
 
 - xmake version:
-- operating platform:
+- os:
 - target platform:
 
 ### Additional context

@@ -17,7 +17,12 @@ If applicable, please add verbose the errors output to help us analyze your prob
 > If it is a xmake related compilation problem, please add the `-v -D` parameter and give the detailed compilation output information.
 
 ### Related Environment
-Please provide the compilation or runtime environment information, for example: xmake version, operating system, etc.
+
+Please provide compiling and running environment information:
+
+- xmake version:
+- operating platform:
+- target platform:
 
 ### Additional context
 Add any other context about the problem here.

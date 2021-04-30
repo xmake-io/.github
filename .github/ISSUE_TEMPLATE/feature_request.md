@@ -1,7 +1,10 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
+labels: 'type: feature request'
+
 ---
+
 
 <!--
 All xmake-related projects are personal open source projects. The support of new features depends on the author (ruki)'s own schedule. Even if they are adopted, there is no guarantee that they will be supported immediately.

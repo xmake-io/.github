@@ -19,7 +19,9 @@ about: 报告缺陷以帮助我们改进
 
 ```console
 $ xmake f -vD -c
+logs...
 $ xmake -vD
+logs...
 ```
 
 如果日志太多，可以上传附件，但必须完整，否则一率标记为 Invalid。

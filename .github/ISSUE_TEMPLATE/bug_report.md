@@ -1,6 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
+labels: 'bug'
 ---
 
 > Note: If you use the fuzzy expressions such as 'can't use/no effect/problem/error', but don't give any relevant auxiliary information according to the template below, this issue will be not replied.

@@ -1,8 +1,7 @@
 ---
 name: 请求新功能
 about: 提出你期待的功能特性
-labels: 'type: feature request'
-
+labels: 'feature request'
 ---
 
 <!--

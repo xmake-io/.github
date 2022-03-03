@@ -1,0 +1,58 @@
+name: Bug Report
+description: Create a report to help us improve
+labels: 'bug :beetle:'
+body:
+
+- type: input
+  attributes:
+    label: Xmake Version
+    description: What version of Xmake are you using?
+    placeholder: 0.0.0
+  validations:
+    required: true
+
+- type: input
+  attributes:
+    label: Operating System Version and Architecture
+    description: What operating system version and architecture are you using? On Windows, click Start button > Settings > System > About. On macOS, click the Apple Menu > About This Mac. On Linux, use lsb_release or uname -a.
+    placeholder: "e.g. Windows 10 version 1909, macOS Catalina 10.15.7, or Ubuntu 20.04"
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Describe Bug
+    description: A clear and concise description of what the bug is.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Expected Behavior
+    description: A clear and concise description of what you expected to happen.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Project Configuration
+    description: If possible, please provide your configuration in xmake.lua if possible. Or provide a complete minimal reproducible example project and upload it as an attachment.
+
+- type: textarea
+  attributes:
+    label: Additional Information and Error Logs
+    description: If it is a xmake related compilation problem, please add the `-vD` parameter and give the detailed compilation output information. If your problem needs further explanation, please add more information here.
+
+- type: markdown
+  attributes:
+    value: |
+      ## Technical Support
+
+      Thank you very much for your feedback here, but Xmake is a personal open source project. Due to the limited time and energy of the author, it may not be able to guarantee timely processing and resolution of your problems.
+
+      Of course, you can also consider sponsoring us to get extra technical support services via [Github sponsor program](https://github.com/sponsors/waruqi),
+      then you can get access to [xmake-io/technical-support](https://github.com/xmake-io/technical-support) repository to get more consulting related information.
+
+      - [x] Handling Issues with higher priority
+      - [x] One-to-one technical consulting service
+      - [x] Review your xmake.lua and provide suggestions for improvement

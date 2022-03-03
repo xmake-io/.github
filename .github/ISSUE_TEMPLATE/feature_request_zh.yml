@@ -1,0 +1,66 @@
+---
+name: 请求新功能
+about: 提出你期待的功能特性
+labels: 'feature request'
+---
+
+<!--
+所有 xmake 相关项目都属于个人开源项目，新特性的支持，取决于作者(ruki)自身的时间安排，即使被采纳，也不能确保一定会立即支持。
+提交请求后，您可以耐心等待一段时间，当然，我们也欢迎您直接提交 pull request 来参与代码贡献。
+
+另一种选择是通过公司赞助为项目提供财务支持，也能促使我们有足够的资金和时间去快速完成新特性的开发。不过前提是此特性已经被采纳，因此在赞助前请先联系作者进一步讨论相关特性需求。
+-->
+
+### 你在什么场景下需要该功能？
+
+请尽量清晰精准地描述你碰到的问题。
+
+### 描述可能的解决方案
+
+请尽量清晰精准地描述你期待我们要做的，描述你想到的实现方案。
+
+### 描述你认为的候选方案
+
+请尽量清晰精准地描述你能接受的候选解决方案。
+
+### 其他信息
+
+请提供关于该功能建议的其他附加信息。
+
+name: 请求新功能
+description: 提出你期待的功能特性
+labels: 'feature request'
+body:
+
+- type: textarea
+  attributes:
+    label: 你在什么场景下需要该功能？
+    description: 请尽量清晰精准地描述你碰到的问题。
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: 描述可能的解决方案
+    description: 请尽量清晰精准地描述你期待我们要做的，描述你想到的实现方案。
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: 描述你认为的候选方案
+    description: 请尽量清晰精准地描述你能接受的候选解决方案。
+
+- type: textarea
+  attributes:
+    label: 其他信息
+    description: 请提供关于该功能建议的其他附加信息。
+
+- type: markdown
+  attributes:
+    value: |
+      ## 赞助我们
+
+      非常感谢您能在这里反馈问题，但是 Xmake 是个人开源项目，由于作者的时间精力有限，不一定能够保证您的需求一定会被采纳和实现。
+
+      但是您也可以考虑[赞助我们](https://xmake.io/#/zh-cn/about/sponsor)，来加速我们对新特性的开发，谢谢！

@@ -1,4 +1,4 @@
-name: 报告问题
+name: Bug 报告
 description: 报告问题以帮助我们改进
 labels: 'bug'
 body:

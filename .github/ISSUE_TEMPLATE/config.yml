@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and Discussions (问题和讨论)
+    url: https://github.com/xmake-io/xmake/discussions
+    about: Looking for help. Discuss general issues. (寻找帮助，讨论问题)

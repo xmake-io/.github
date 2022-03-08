@@ -7,7 +7,7 @@ body:
   id: xmake
   attributes:
     label: Xmake 版本
-    description: 你正在使用的 Xmake 版本是什么？
+    description: 你正在使用的 Xmake 版本是什么？请运行：`xmake --version`
     placeholder: 0.0.0
   validations:
     required: true

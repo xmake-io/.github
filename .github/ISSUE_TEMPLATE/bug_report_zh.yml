@@ -50,6 +50,7 @@ body:
   attributes:
     label: 附加信息和错误日志
     description: 如果是 Xmake 相关问题，请添加 `-vD` 命令参数，并且提供完整详细的输出和错误信息。如果你的问题还需要进一步描述，请在这里提供更多信息。
+  placeholder: "```console\n日志请加上 markdown code 标注```"
   validations:
     required: true
 

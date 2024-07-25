@@ -37,6 +37,7 @@ body:
   attributes:
     label: Project Configuration
     description: Please provide your configuration in xmake.lua. Or provide a complete minimal reproducible example project and upload it as an attachment.
+    placeholder: "```lua\nxmake.lua content\n```"
   validations:
     required: true
 
@@ -44,6 +45,7 @@ body:
   attributes:
     label: Additional Information and Error Logs
     description: If it is a xmake related compilation problem, please add the `-vD` parameter and give the detailed compilation output information. If your problem needs further explanation, please add more information here.
+    placeholder: "```console\nlogs content\n```"
   validations:
     required: true
 

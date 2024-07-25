@@ -42,6 +42,7 @@ body:
   attributes:
     label: 工程配置
     description: 请尽可能提供你工程的 xmake.lua 配置内容和关键片段。或者提供最小可复现的完整工程例子，作为附件上传。
+    placeholder: "```lua\n配置内容\n```"
   validations:
     required: true
 
@@ -50,7 +51,7 @@ body:
   attributes:
     label: 附加信息和错误日志
     description: 如果是 Xmake 相关问题，请添加 `-vD` 命令参数，并且提供完整详细的输出和错误信息。如果你的问题还需要进一步描述，请在这里提供更多信息。
-    placeholder: "```console\n日志请加上 markdown code 标注```"
+    placeholder: "```console\n日志内容\n```"
   validations:
     required: true
 
